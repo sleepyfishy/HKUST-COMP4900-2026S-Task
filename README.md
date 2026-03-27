@@ -1,6 +1,6 @@
 # HKUST 2026 Spring COMP 4900 GitHub Training Module Task
 
-Welcome to the COMP 4900 GitHub Training Module task. You can review the training module material website [here](https://minglol7794.github.io/github_tutorial/COMP4900-Website)
+Welcome to the COMP 4900 GitHub Training Module task. You can review the training module materials on the website [here](https://minglol7794.github.io/github_tutorial/COMP4900-Website).
 
 ## Task
 
@@ -35,13 +35,13 @@ Clone your forked repository to your local machine:
 
 ```bash
 git clone <your-fork-url>
-cd COMP4900
+cd HKUST-COMP4900-2026S-Task
 ```
 
 Example fork URL:
 
 ```bash
-https://github.com/<your-github-username>/pull-request-test.git
+https://github.com/<your-github-username>/HKUST-COMP4900-2026S-Task.git
 ```
 
 ## Step 3: Create a New Branch and Edit Data/student.json
@@ -58,7 +58,9 @@ Open `Data/student.json` and add or update your record with:
 3. ITSC email
 4. GitHub username
 
-Please keep the JSON format valid (do not break commas, brackets, or quotes).
+Please keep the JSON format valid (do not break commas, brackets, or quotation marks).
+
+JSON (JavaScript Object Notation) is a lightweight text format for storing structured data as key-value pairs and arrays. In this task, `Data/student.json` uses JSON to store student records in a machine-readable format.
 
 ## Step 4: Commit and Push Your Changes
 
@@ -79,7 +81,7 @@ Make sure your pull request clearly shows your student information update.
 ## Step 6: Wait for Auto-Validation
 
 If your submission is correct:
-1. You will receive an automatic reply in the pull request
+1. You will receive an automatic reply in your pull request
 ![Success submit automatic reply](Assets/task-success-submit.png)
 2. Your record will be updated in the tracking spreadsheet
 
@@ -105,5 +107,5 @@ Before submitting, confirm that:
 6. You submitted the pull request link on Canvas
 
 ## Extra
-Here is a Nessie, cute.
+Here is Nessie. Cute.
 ![Nessie](Assets/NESSIE.png)
